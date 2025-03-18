@@ -1,10 +1,14 @@
-import {View , Text} from "react-native"
+import { Text, View } from 'react-native'
+import React, { Component } from 'react'
 
-
-const App =() =>{
+export class App extends Component {
+  render() {
     return (
-        <View>
-            <Text> hello</Text>
-        </View>
+      <View>
+        <Text>App</Text>
+      </View>
     )
+  }
 }
+
+export default App
